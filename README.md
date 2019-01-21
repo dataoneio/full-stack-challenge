@@ -26,8 +26,8 @@ Your friend asks you to help him to build a simple web application where he can 
 * The service has to provide a REST API for the client.
 * The client and the server must communicate with JSON objects.
 * The server has to reject save and update requests when the required fields are not filled in. (Spring supports JSR-303 validation. You should use @Valid and @NotNull annotations to make it work)
-* You can use any javascript framework to call REST api. (Preferred ones are Angular JS, React JS or any modern JS framework)
 * The database must be pre-populated with some initial data.
+* A postman collection to test all implemented API Endpoints
 
 A movie has the following attributes:
 * Id
@@ -64,4 +64,5 @@ Required artifacts:
 - Code with test cases.
 - Readme.md file for installation and running.
 - API Documentation. (Swagger is preferrable).
+- A postman collection to test all implemented API Endpoints
 - Docker Compose, Docker Swarm or Kuberntes orchestration. (Nice to have)
